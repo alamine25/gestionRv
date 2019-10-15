@@ -20,7 +20,7 @@
     <!-- The sidebar -->
     <div class="sidebar">
         <span class="avatar">
-                <img src="img/user8-512.png" alt="" style="width:5rem ">
+                <img src="img/user.png" alt="" style="width:5rem ">
                 <h4>Mle Seck</h4>
                 <h5>Secretaire</h5>
         </span>
