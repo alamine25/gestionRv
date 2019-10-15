@@ -1,3 +1,23 @@
+<?php
+$bdd = new PDO ('mysql:host=localhost;dbname=gestion_rv','root','root');
+//  Verification des parametre
+//  Récupération de l'utilisateur 
+if(isset($_POST['submit'])){
+    $email = $_POST['email'];
+    $passwd = $_POST['passwd'];
+    $req = $bdd->query("SELECT * FROM secretaire WHERE email= '$email'  AND  passwd = '$passwd'   ");
+    $req->execute(array($email, $passwd));
+    $resultat = $req->fetch();
+    if($resultat['email'] == $email && $resultat['passwd'] == $passwd){
+        header('location:homepageS.php');
+    }
+
+    else
+    {
+        echo '<p class="alert alert-danger">Adresse email ou mot de passse incorrect.</p>';
+    }
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -27,23 +47,19 @@
             <!-- separate les deux blocks  -->
 
             <div class="col-md-6 login-form-1">
-                <form action="">
+                 <form class="col-12" action="" method="post">
                     <h1 class="font-weight-bold" style="font-size: 4vw;">Sign In</h1>
                     <p class="font-weight-light" style="font-size: 1.5vw;">Veuillez entrer vos identifications</p>
-                    <div class="form-group">
-                        <i class='fas fa-users icon'></i>
-                        <input type="text" class="form-control" placeholder="Votre Email" value="">
+                    <div class="form-group"> <em class="fas fa-user fasi"></em>
+                    <input  type="text" class="form-control" name="email" placeholder="Entrez votre email">
                     </div>
-                    <div class="form-group">
-                        <i class='fas fa-key icon'></i>
-                        <input type="password" class="form-control" placeholder="Votre Password" value="">
+                    <div class="form-group"><em class="fas fa-lock fasi"></em>
+                    <input type="password" class="form-control" name="passwd" placeholder="Entrez votre mot de passe">
                     </div>
-                    <div class="form-group">
-                        <input type="submit" class="btnSubmit" value="Se connecter">
-                    </div>
-
+                    <em class="fas fa-sign-in-alt"></em> <input type="submit" class="btn button" value="Connecter" name="submit">
                 </form>
             </div>
+
 
         </div>
     </div>

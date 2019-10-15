@@ -8,7 +8,7 @@ if(isset($_POST['submit'])){
     $req = $bdd->query("SELECT * FROM medecin WHERE email= '$email'  AND  passwd = '$passwd'   ");
     $req->execute(array($email, $passwd));
     $resultat = $req->fetch();
-    if($resultat['email'] == $email AND $resultat['passwd'] == $passwd){
+    if($resultat['email'] == $email && $resultat['passwd'] == $passwd){
         header('location:homepageM.php');
     }
 
@@ -43,7 +43,7 @@ if(isset($_POST['submit'])){
 
             <div class="col-md-6 login-form-1">
                  <form class="col-12" action="" method="post">
-                 <h1 class="font-weight-bold" style="font-size: 4vw;">Sign In</h1>
+                    <h1 class="font-weight-bold" style="font-size: 4vw;">Sign In</h1>
                     <p class="font-weight-light" style="font-size: 1.5vw;">Veuillez entrer vos identifications</p>
                     <div class="form-group"> <em class="fas fa-user fasi"></em>
                     <input  type="text" class="form-control" name="email" placeholder="Entrez votre email">
