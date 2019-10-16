@@ -26,7 +26,7 @@
         </span>
 
         <a href="#Home"><i class="fa fa-home" style="font-size:16px"></i> Home</a>
-        <a href="#rendez-vous"><i class='far fa-calendar-alt' style='font-size:16px'></i> rendez-vous</a>
+        <a href="rendezV.php"><i class='far fa-calendar-alt' style='font-size:16px'></i> rendez-vous</a>
         <span class="deconnect">
             <a href=""><i class="fa fa-cog" style="font-size:16px"></i> Déconnection</a>
         </span>
