@@ -25,9 +25,9 @@
                 <h5></h5>
         </span>
 
-        <a href="#Home"><i class="fa fa-home" style="font-size:16px"></i> medecins</a>
-        <a href="#rendez-vous"><i class='far fa-calendar-alt' style='font-size:16px'></i> Services</a>
-        <a href="#rendez-vous"><i class='far fa-calendar-alt' style='font-size:16px'></i> Secretaire</a>
+        <a href="homepageA.php"><i class="fa fa-home" style="font-size:16px"></i> medecins</a>
+        <a href="#"><i class='far fa-calendar-alt' style='font-size:16px'></i> Services</a>
+        <a href="secretaire.php"u><i class='far fa-calendar-alt' style='font-size:16px'></i> Secretaire</a>
         <span class="deconnect">
             <a href=""><i class="fa fa-cog" style="font-size:16px"></i> Déconnection</a>
         </span>
@@ -37,13 +37,13 @@
         <h1>Admin</h1>
         <!-- Model Button rv -->
         <div class="buttonrv">
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo"><i class='fas fa-plus'></i> Ajouter Medecin</button>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo"><i class='fas fa-plus'></i> Ajouter Service</button>
 
             <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Ajouter Medecin</h5>
+                            <h5 class="modal-title" id="exampleModalLabel">Ajouter Service</h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
