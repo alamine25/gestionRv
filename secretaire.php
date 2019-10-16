@@ -25,11 +25,11 @@
                 <h5></h5>
         </span>
 
-        <a href="homepageA.php"><i class="fa fa-home" style="font-size:16px"></i> medecins</a>
-        <a href="service.php"><i class='far fa-calendar-alt' style='font-size:16px'></i> Services</a>
-        <a href="#"><i class='far fa-calendar-alt' style='font-size:16px'></i> Secretaire</a>
+        <a href="homepageA.php"><em class="fa fa-home" style="font-size:16px"></em> medecins</a>
+        <a href="service.php"><em class='far fa-calendar-alt' style='font-size:16px'></em> Services</a>
+        <a href="#"><em class='far fa-calendar-alt' style='font-size:16px'></em> Secretaire</a>
         <span class="deconnect">
-            <a href=""><i class="fa fa-cog" style="font-size:16px"></i> Déconnection</a>
+            <a href=""><em class="fa fa-cog" style="font-size:16px"></em> Déconnection</a>
         </span>
     </div>
 
@@ -73,7 +73,7 @@
 
         <!-- bouton de notification -->
         <button type="button" class="btn btn-primary">
-             <i class="fas fa-bell"></i> <span class="badge badge-light">4</span>
+             <em class="fas fa-bell"></em> <span class="badge badge-light">4</span>
         </button>
         <!-- fin bouton de notification -->
     </div>
