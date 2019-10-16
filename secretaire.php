@@ -26,8 +26,8 @@
         </span>
 
         <a href="#Home"><i class="fa fa-home" style="font-size:16px"></i> medecins</a>
-        <a href="service.php"><i class='far fa-calendar-alt' style='font-size:16px'></i> Services</a>
-        <a href="secretaire.php"><i class='far fa-calendar-alt' style='font-size:16px'></i> Secretaire</a>
+        <a href="#rendez-vous"><i class='far fa-calendar-alt' style='font-size:16px'></i> Services</a>
+        <a href="#rendez-vous"><i class='far fa-calendar-alt' style='font-size:16px'></i> Secretaire</a>
         <span class="deconnect">
             <a href=""><i class="fa fa-cog" style="font-size:16px"></i> Déconnection</a>
         </span>
