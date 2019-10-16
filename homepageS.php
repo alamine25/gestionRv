@@ -25,17 +25,17 @@
                 <h5>Secretaire</h5>
         </span>
 
-        <a href="#Home"><i class="fa fa-home" style="font-size:16px"></i> Home</a>
-        <a href="#rendez-vous"><i class='far fa-calendar-alt' style='font-size:16px'></i> rendez-vous</a>
+        <a href="#Home"><em class="fa fa-home" style="font-size:16px"></em> Home</a>
+        <a href="rendezV.php"><em class='far fa-calendar-alt' style='font-size:16px'></em> rendez-vous</a>
         <span class="deconnect">
-            <a href=""><i class="fa fa-cog" style="font-size:16px"></i> Déconnection</a>
+            <a href=""><em class="fa fa-cog" style="font-size:16px"></em> Déconnection</a>
         </span>
     </div>
     <!-- The sidebar end -->
     <div class="container">
         <h1>Bienvenue</h1>
         <div class="notification">
-            <a href=""> <i class="fas fa-bell"></i></a>
+            <a href=""> <em class="fas fa-bell"></em></a>
         </div>
         <!-- card -->
         <div class="row">
